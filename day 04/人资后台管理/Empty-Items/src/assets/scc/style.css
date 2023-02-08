@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body,#app{
+    min-width: 1440px;
+    min-height: 820px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../backgroundImage/white_wall_hash.webp) ;
+    /* background-color: #fff; */
+}
+#app{
+    min-width: 1300px;
+}
+.scrollbar-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.el-scrollbar,.el-scrollbar__view {
+    height: 100%;
+}
